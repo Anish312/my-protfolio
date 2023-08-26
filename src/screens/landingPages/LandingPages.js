@@ -12,9 +12,9 @@ function LandingPages() {
     
        <AboutMe id="aboutMe"/>
 
-    <MySkills/>  
+ 
       <Benefits id="benefits"/> 
-
+   <MySkills/>  
     <MyProjects  id="myProjects"/>
     </div>
 )

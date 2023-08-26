@@ -1,7 +1,7 @@
 
 .myProjects{
     background-color: rgb(38, 38, 38);
- padding-top: 20px;
+ padding: 20px 0 30px 0;
 
 }
 .myProjects-head {
@@ -21,6 +21,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .myProjects-container{
     width: 100%;
+    margin-top: 15px;
   display: flex;
    flex-direction: column;
    justify-content: center;
@@ -43,7 +44,7 @@ width: 80%;
     border-radius: 2%;
     background-color: #04131d;
     align-items: center;
-    
+    margin-top: 33px;
 
   }
   

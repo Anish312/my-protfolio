@@ -7,7 +7,7 @@ function AboutMe() {
         <div className='aboutMe-head'>
           <h1>About me</h1>
         </div>
-        <p>"Hello! I'm a passionate ReactJS and Firebase developer with over a year of 
+        <p>"Hello! I'm a passionate Full Stack developer with over 3+ year of 
           hands-on experience in crafting web applications that seamlessly blend
            functionality and aesthetics. Throughout my journey, I've had the privilege
             of working on a diverse range of projects, totaling more than 10 successful 

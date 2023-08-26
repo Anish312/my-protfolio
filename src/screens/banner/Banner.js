@@ -48,7 +48,7 @@ function Banner() {
           <span className='text'>r</span>
 
         </h2>
-        <p>Front End Developer/ React js Expert</p>
+        <p>Full Stack Developer/ React js Expert</p>
         <button class="button-glitch" role="button" onClick={handleClick}>Contact me</button>
     </div>
     <div className='banner-right-container'>

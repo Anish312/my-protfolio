@@ -1,30 +1,10 @@
-
+/* 
 .mySkill{
     background-color: rgb(38, 38, 38);
    
 
 }
-/* MySkills.css */
-/* .mySkill {
-    position: relative;
-    background-image: url('https://wallpapercave.com/wp/wp3988340.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .mySkill::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    backdrop-filter: blur(5px); 
-    z-index: -1;
-  } */
-  
+
 .mySkill-imagesContainers {
     display: flex;
     flex-wrap: wrap;
@@ -98,4 +78,62 @@
 
 
   
-  
+   */
+.mySkill {
+  background-color: rgb(16, 16, 16);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 00px 0 25px 0;
+}
+.mySkill-container{
+  margin: 20px 0;
+  width: 88%;
+ }
+.mySkill-head{
+width: 88%;
+}
+.mySkill-head >h1{
+    font-size: 45px;
+  color: rgb(4, 155, 225);
+}
+/* MySkills.css */
+.mySkill-main {
+  display: flex;
+  animation: circularMotion 15s linear infinite;
+}
+
+@keyframes circularMotion {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+.skill-box > img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.skill-box > p {
+  margin-top: 10px;
+}
