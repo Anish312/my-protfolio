@@ -34,7 +34,16 @@
     border: none;
     background-color: rgb(4, 155, 225);
 }
+.navbar-links-btn:hover{
+ 
+    background-color: rgb(2, 124, 180);
+}
 
+.navbar-links-li:hover{
+    color: rgb(4, 155, 225) !important;
+    transition: 0.4s all ease-in
+
+}
 
 /* Media Query for screens smaller than 768px */
 @media (max-width: 768px) {

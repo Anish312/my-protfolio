@@ -137,3 +137,8 @@ width: 88%;
 .skill-box > p {
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .mySkill {
+display: none;
+  }
+}
