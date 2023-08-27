@@ -13,6 +13,20 @@ function Banner() {
       const email = 'anishgehlot25@gmail.com';
       window.location.href = `mailto:${email}`;
     };
+
+    const [isPlaying, setIsPlaying] = useState(false);
+
+  const audio = new Audio('/path-to-your-song.mp3'); // Replace with your song's file path
+
+  const togglePlay = () => {
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <div className='banner'>
     <div className='banner-container' onMouseMove={(e) => handleMouseMove(e)}>
@@ -58,6 +72,7 @@ function Banner() {
     
 </div>
         </div>
+       
     </div>
   )
 }

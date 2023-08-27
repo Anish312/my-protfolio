@@ -89,10 +89,13 @@
 }
 .mySkill-container{
   margin: 20px 0;
-  width: 88%;
+  
+  overflow: hidden;
+  width:98%;
  }
 .mySkill-head{
 width: 88%;
+margin: 0 auto;
 }
 .mySkill-head >h1{
     font-size: 45px;
@@ -100,6 +103,7 @@ width: 88%;
 }
 /* MySkills.css */
 .mySkill-main {
+
   display: flex;
   animation: circularMotion 15s linear infinite;
 }
@@ -126,6 +130,7 @@ width: 88%;
 }
 
 .skill-box:hover {
+
   transform: scale(1.05);
 }
 

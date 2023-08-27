@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../../files/logo.png'
 import { Link } from 'react-scroll'; // Import the Link component
+import SongButton from '../songButton/SongButton';
 
 function Navbar() {
   const handleClick = () => {
@@ -15,8 +16,8 @@ function Navbar() {
     
     
         <img  className='navbar-logo-img' src={logo} alt=""/>  
- 
-        <div className='navbar-links'>
+
+         <div className='navbar-links'>
             <ul className='navbar-links-ul'>   
 
                 <li className='navbar-links-li'>
