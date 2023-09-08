@@ -45,6 +45,11 @@ const skillsData = [
     imageSrc: md, // Replace with actual image source
     text: 'Mongo DB',
   },
+  {
+    id: 7,
+    imageSrc: "https://th.bing.com/th/id/OIP.rcKVwmwg1wZlroN8v1nBeAAAAA?pid=ImgDet&rs=1", 
+    text: 'Next Js',
+  },
 ];
 function MySkills( ) {
 
