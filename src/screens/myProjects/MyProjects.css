@@ -4,11 +4,11 @@
  padding: 20px 0 30px 0;
 
 }
+
 .myProjects-head {
   display: flex;
-justify-content: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .myProjects-head >h1 {

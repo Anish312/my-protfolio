@@ -4,6 +4,8 @@ import ScrollingLine from '../../components/scrollingLine/ScrollingLine ';
 import image1 from '../../images/image2.png';
 import image2 from '../../images/netflix.png';
 import image3 from '../../images/image3.png';
+import expense from '../../images/expense.png';
+import blog from '../../images/blog.png';
 
 const data = [
   {
@@ -14,11 +16,18 @@ const data = [
     tech: ['React.js', 'Firebase',"HTML","CSS"]
   },
   {
-    image: image2,
-    title: 'Netflix Clone',
-    description: 'The Netflix Clone project is a testament to my passion for web development and my ability to replicate complex platforms using modern technologies. I embarked on this project to not only hone my skills but also to showcase my proficiency in building dynamic, feature-rich web applications.',
-    url: 'https://netflix22-46732.web.app/',
-    tech: ['React.js', 'Firebase', 'Node' , "API's"]
+    image: expense,
+    title: 'Expense Manager',
+    description: 'An expense manager website is a powerful financial tool designed to help individuals and businesses track their spending and manage their budgets effectively.  ',
+    url: 'https://expense-manager-delta.vercel.app',
+    tech: ['React.js', 'Firebase', 'Node' , "Redux" , "Saga"]
+  },
+  {
+    image: blog,
+    title: 'Blog Website',
+    description :"blog website serves as a dynamic platform for individuals and organizations to share information, ideas, and opinions with a global audience.",
+    url: 'https://blogproject-a042e.web.app/',
+    tech: ['React.js', 'Firebase', 'Node' ]
   },
   {
     image: image3,
@@ -56,7 +65,6 @@ function MyProjects() {
    </div>
     <div className='myProjects-container'>
  
-     
       <div className="myProjects-imagesContainers">
       {data.map((item, index) => (
         <div
@@ -71,9 +79,7 @@ function MyProjects() {
               )}      <a href={item.url} target="_blank" rel="noopener noreferrer">
 
             <img width={100} src={item.image} alt={`Product ${index + 1}`} />
-
             </a>
-
           </div>
           <div className="myProjects-imagesContainers-product-info">
           <a href={item.url} target="_blank" rel="noopener noreferrer" className="myProjects-imagesContainers-product-title">

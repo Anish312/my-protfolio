@@ -5,6 +5,7 @@ import myImg  from '../../files/myImg.jpg'
 function Banner() {
     const [position, setPosition] = useState({ x: 0, y: 0 });
 
+    
     // handle mouse movement to update the cursor position
     const handleMouseMove = (event) => {
       setPosition({ x: event.clientX, y: event.clientY });
