@@ -60,9 +60,10 @@ function MyProjects() {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % data.length);
       }, 5000);
   
-      return () => clearInterval(timer); // Cleanup the timer on component unmount
+      return () => clearInterval(timer); 
   
     }, []);
+    //==
     useEffect(() => {
         window.addEventListener('scroll', () => {
           document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
@@ -73,6 +74,7 @@ function MyProjects() {
 
   return (
     <div className='myProjects'>
+    
    <div className='myProjects-head'>
      <h1>My Projects </h1>
    </div>
