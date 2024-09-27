@@ -74,7 +74,7 @@ function MyProjects() {
   return (
     <div className='myProjects'>
    <div className='myProjects-head'>
-     <h1>My Projects</h1>
+     <h1>My Projects </h1>
    </div>
     <div className='myProjects-container'>
  
