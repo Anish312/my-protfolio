@@ -7,8 +7,26 @@ import image3 from '../../images/image3.png';
 import expense from '../../images/expense.png';
 import blog from '../../images/blog.png';
 import raycasting from '../../images/raycasting.png';
+import amongus from '../../images/amongus.png';
+import nike from '../../images/nike.png';
 
 const data = [
+  {
+    image: nike,
+    title: 'Shoes Website',
+    description: "This website is built using the MERN stack, which combines MongoDB, Express.js, React.js, and Node.js. This modern web application provides users with a seamless shopping experience, featuring an intuitive user interface for browsing and purchasing various shoe styles.",
+    url: 'https://mern-ecom-frontend-6n2z.vercel.app/',
+    gitUrl: "https://github.com/Anish312/mern-ecom-frontend",
+    tech: ['Node js', 'React',"HTML","CSS"]
+  },
+  {
+    image: amongus,
+    title: 'Not Among Us Game',
+    description: "Build a game  with JavaScript,It is a 2D platformer game where players control a character that runs, jumps, and avoids obstacles. The game is built using JavaScript and HTML5 Canvas to handle visuals, collisions, and player interactions.",
+    url: 'https://not-among-us.vercel.app/',
+    gitUrl: "https://github.com/Anish312/not-among-us",
+    tech: ['JavaScript', 'Canvas',"HTML","CSS"]
+  },
   {
     image: raycasting,
     title: 'Raycasting Game',

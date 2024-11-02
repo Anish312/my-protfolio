@@ -32,7 +32,7 @@ function Benefits() {
 
         </div>
         <div className='benefits-right-box'>
-        <h1>2+</h1>
+        <h1>3+</h1>
         <p className='benefits-right-box-p'>of experience</p>
 
     </div>

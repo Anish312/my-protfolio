@@ -47,7 +47,7 @@ const skillsData = [
   },
   {
     id: 7,
-    imageSrc: "https://th.bing.com/th/id/OIP.rcKVwmwg1wZlroN8v1nBeAAAAA?pid=ImgDet&rs=1", 
+    imageSrc: "https://miro.medium.com/v2/resize:fit:610/1*0N1cRFT9fFjOPEswcYAraw.png", 
     text: 'Next Js',
   },
 ];
